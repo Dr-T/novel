@@ -18,7 +18,7 @@ import {
   import { uploadFn } from "./image-upload";
   
   export const suggestionItems = createSuggestionItems([
-    {
+    /*{
       title: "发送反馈",
       description: "让我们知道如何改进",
       icon: <MessageSquarePlus size={18} />,
@@ -26,7 +26,7 @@ import {
         editor.chain().focus().deleteRange(range).run();
         window.open("/feedback", "_blank");
       },
-    },
+    },*/
     {
       title: "文本",
       description: "开始输入纯文本",
